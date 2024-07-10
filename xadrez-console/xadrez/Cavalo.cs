@@ -8,7 +8,7 @@ namespace xadrez {
         }
 
         public override string ToString() {
-            return "B";
+            return "C";
         }
 
         private bool podeMover(Posicao pos) {
