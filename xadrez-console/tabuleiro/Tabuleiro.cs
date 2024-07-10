@@ -35,7 +35,7 @@
 
         public Peca retirarPeca(Posicao pos) {
             if (peca(pos) == null) {
-                throw new TabuleiroException("A peça que deseja retirar nao existe!");
+                return null;
             }
             else {
                 Peca aux = peca(pos);
